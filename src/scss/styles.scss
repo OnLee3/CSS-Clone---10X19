@@ -15,8 +15,8 @@ body {
 }
 
 div {
-  border: 1px dotted #af7732;
-  color: #af7732;
+  border: 1px dotted $bg;
+  color: $bg;
   font-size: 28px;
   font-weight: 400;
   display: flex;
@@ -36,7 +36,7 @@ div {
   &:hover {
     cursor: pointer;
     color: white;
-    background-color: #af7732;
+    background-color: $bg;
     transition: all 0.2s linear;
   }
 }
@@ -45,11 +45,11 @@ div {
   &:hover {
     cursor: pointer;
     color: white;
-    background-color: #af7732;
+    background-color: $bg;
     transition: all 0.2s linear;
   }
   &:active {
-    background-color: #af7732;
+    background-color: $bg;
     position: absolute;
     top: 0;
     right: 0;
