@@ -32,6 +32,7 @@ div {
   grid-row: 2 / -2;
   background-image: url(/img/riot.png);
   background-size: cover;
+  background-position: center;
 }
 
 .albumBox {
@@ -45,9 +46,9 @@ div {
 
 .movingText {
   white-space: nowrap;
+  overflow: hidden;
   span {
     animation: textAnimation 3s linear infinite forwards;
-    overflow: hidden;
   }
 }
 
