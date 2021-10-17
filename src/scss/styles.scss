@@ -30,9 +30,8 @@ div {
 .imgBox {
   grid-column: 2 / -2;
   grid-row: 2 / -2;
-  background-image: url(https://source.unsplash.com/featured/?album,music);
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 .albumBox {
